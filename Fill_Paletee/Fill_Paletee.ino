@@ -1,0 +1,24 @@
+#include "FastLED.h"            // 此示例程序需要使用FastLED库
+
+#define NUM_LEDS 30             // LED灯珠数量
+#define DATA_PIN 9              // Arduino输出控制信号引脚
+#define LED_TYPE WS2812         // LED灯带型号
+#define COLOR_ORDER GRB         // RGB灯珠中红色、绿色、蓝色LED的排列顺序
+
+uint8_t max_bright = 128;       // LED亮度控制变量，可使用数值为 0 ～ 255， 数值越大则光带亮度越高
+
+CRGB leds[NUM_LEDS];            // 建立光带leds
+
+void setup() { 
+  Serial.begin(9600);           // 启动串行通讯
+  delay(1000);                  // 稳定性等待
+  LEDS.addLeds<LED_TYPE, DATA_PIN, COLOR_ORDER>(leds, NUM_LEDS);  // 初始化光带 
+  FastLED.setBrightness(max_bright);                            // 设置光带亮度
+}
+
+void loop() { 
+fill_palette(leds, 30, 0, 8, OceanColors_p, 255, LINEARBLEND);//NOBLEND 
+//光带名，LED个数，起始色调，色调间隔，色板名称，亮度，渐变效果
+FastLED.show();
+delay(50);
+}
