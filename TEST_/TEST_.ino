@@ -12,6 +12,7 @@ Serial.print("Hello, Arduino!");
 pinMode(9, OUTPUT);
 pinMode(3, OUTPUT);
 }
+//TEST//
 
 void loop() {
   // put your main code here, to run repeatedly:
@@ -30,7 +31,7 @@ if(Serial.available()>0){
       delay(10);
     }
     break;
-    default: 
+    default:
     digitalWrite(led1, LOW);
     digitalWrite(led2, LOW);
   }
