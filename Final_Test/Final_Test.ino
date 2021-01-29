@@ -3,7 +3,7 @@
 #define DATA_PIN 9              // Arduino输出控制信号引脚
 #define CLOCK_PIN 8
 #define LED_TYPE APA102         // LED灯带型号
-#define COLOR_ORDER1 RGB         // RGB灯珠中红色、绿色、蓝色LED的排列顺序
+#define COLOR_ORDER RGB         // RGB灯珠中红色、绿色、蓝色LED的排列顺序
 
 uint8_t max_bright = 128;  
 
