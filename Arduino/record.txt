@@ -28,3 +28,6 @@ esp32开发套件（arduino内存不太够）：3 hihi:/₴fm6xcvyNmcL陶一宝�
 法兰：32mPTcE1J3IX₴陶二宝 https://m.tb.cn/h.4jaWPdp?sm=adfe03【3/4/5/6/8/10/12mm 各式 法兰联轴器 一览 Robomaster Robocon】
 电气滑环：6.0₤xVGRcE1JGXx匋一宝 https://m.tb.cn/h.4QliNLn?sm=f640ff【小型滑环导电环 微型旋转导电滑环2 4 6 8 10 12 24路帽式滑环】
 过几天画一下图就行，结构的问题算是解决了
+2021年2月7日12:48:58 hezc1928
+统计了采购的物品，装配图纸已经画了关键部分，剩下只有一个可有可无的安装主板
+电机大部分店家都是十台起做，不是很好沟通
