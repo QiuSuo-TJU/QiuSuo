@@ -1,4 +1,3 @@
-#include <Arduino.h>
 int i;
 String inString = "";
 char LED = ' ';
@@ -15,19 +14,20 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   if(stringComplete){
+    Serial.println(LED);
     if(LED=='R'){
       analogWrite(9,i);
     }
-    if(LED=='G'){
+    else if(LED=='G'){
       analogWrite(10,i);
     }
-    if(LED=='B'){
+    else if(LED=='B'){
       analogWrite(11,i);
     }
+      stringComplete = false;
+      inString = " ";
+      LED = ' ';
   }
-  stringComplete = false;
-  inString = " ";
-  LED = ' ';
 }
 
 void serialEvent(){

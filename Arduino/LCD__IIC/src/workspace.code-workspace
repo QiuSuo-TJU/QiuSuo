@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../Serial_Control_RGB"
+		},
+		{
+			"name": "Stepper_Motor",
+			"path": "../../Stepper_Motor"
+		},
+		{
+			"name": "ICD__IIC",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
