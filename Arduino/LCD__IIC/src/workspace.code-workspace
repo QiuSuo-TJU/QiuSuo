@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "A",
+			"path": "..\\..\\..\\..\\..\\PlatformIO\\Projects\\A"
+		},
+		{
+			"name": "aa",
+			"path": "..\\..\\..\\..\\..\\PlatformIO\\Projects\\aa"
+		},
+		{
+			"name": "qq",
+			"path": "..\\..\\..\\..\\..\\PlatformIO\\Projects\\qq"
+		}
+	],
+	"settings": {}
+}
