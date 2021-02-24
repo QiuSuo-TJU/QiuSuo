@@ -1,15 +1,19 @@
 {
 	"folders": [
 		{
-			"path": "../../Serial_Control_RGB"
-		},
-		{
-			"name": "Stepper_Motor",
-			"path": "../../Stepper_Motor"
-		},
-		{
-			"name": "ICD__IIC",
 			"path": ".."
+		},
+		{
+			"name": "A",
+			"path": "..\\..\\..\\..\\..\\PlatformIO\\Projects\\A"
+		},
+		{
+			"name": "aa",
+			"path": "..\\..\\..\\..\\..\\PlatformIO\\Projects\\aa"
+		},
+		{
+			"name": "qq",
+			"path": "..\\..\\..\\..\\..\\PlatformIO\\Projects\\qq"
 		}
 	],
 	"settings": {}
