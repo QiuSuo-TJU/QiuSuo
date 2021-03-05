@@ -1,0 +1,335 @@
+#include"McC.h"
+McC::McC(){
+  Serial.println("Welcome to the McC library");
+  pinMode(5, OUTPUT);
+}
+void McC::displayLetter (int Letter){
+  switch(Letter){
+    case 65://显示A
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(1500);
+      break;
+    case 66://显示B
+      digitalWrite(5,HIGH);
+      delay(1500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+    case 67://显示C
+      digitalWrite(5,HIGH);
+      delay(1500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(1500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+    case 68://显示D
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+    case 69://显示E
+      digitalWrite(5,HIGH);
+      delay(1500);
+    case 70://显示F
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(1500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+    case 71://显示G
+      digitalWrite(5,HIGH);
+      delay(1500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(1500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+    case 72://显示H
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+    case 73://显示I
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+    case 74://显示J
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(1500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(1500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(1500);
+    case 75 ://显示K
+      digitalWrite(5,HIGH);
+      delay(1500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(1500);
+    case 76://显示L
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(1500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+    case 77://显示M
+      digitalWrite(5,HIGH);
+      delay(1500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(1500);
+    case 78://显示N
+      digitalWrite(5,HIGH);
+      delay(1500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+    case 79://显示O
+      digitalWrite(5,HIGH);
+      delay(1500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(1500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(1500);
+    case 80://显示P
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(1500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(1500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+    case 81://显示Q
+      digitalWrite(5,HIGH);
+      delay(1500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(1500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(1500);
+    case 82://显示R
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(1500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+    case 83://显示S
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+    case 84://显示T
+      digitalWrite(5,HIGH);
+      delay(1500);
+    case 85://显示U
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(1500);
+    case 86://显示V
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(1500);
+    case 87://显示W
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(1500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(1500);
+    case 88://显示X
+      digitalWrite(5,HIGH);
+      delay(1500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(1500);
+    case 89://显示Y
+      digitalWrite(5,HIGH);
+      delay(1500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(1500);
+    case 90://显示Z
+      digitalWrite(5,HIGH);
+      delay(1500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(1500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+    default://错误
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);
+      digitalWrite(5,LOW);
+      delay(500);
+      digitalWrite(5,HIGH);
+      delay(500);  
+  } 
+}
