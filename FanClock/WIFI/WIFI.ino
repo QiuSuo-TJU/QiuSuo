@@ -1,8 +1,8 @@
 #include <WiFi.h>
 #include "time.h"
  
-const char* ssid       = "Xiaomi_1481";
-const char* password   = "qiusuo222";
+const char* ssid       = "HONOR 20";
+const char* password   = "31415926";
  
 const char* ntpServer = "pool.ntp.org";
 const long  gmtOffset_sec = 28800;
