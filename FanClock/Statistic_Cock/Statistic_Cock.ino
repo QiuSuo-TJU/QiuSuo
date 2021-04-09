@@ -1,11 +1,11 @@
 #include <FastLED.h>
 #define NUM_LEDS 18
-#define DATA_PIN 3
-#define CLOCK_PIN 8
+#define DATA_PIN A1
+#define CLOCK_PIN A3
 
 
-int times1 = 2799;   
-int times2 = 1;
+int times1 = 2700;   
+int times2 = 100;
 uint8_t max_bright = 50;
 CRGB leds[NUM_LEDS];
 
