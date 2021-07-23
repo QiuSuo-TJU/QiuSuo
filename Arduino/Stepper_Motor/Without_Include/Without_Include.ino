@@ -8,7 +8,7 @@ pinMode(VCC, OUTPUT);
 pinMode(PLS, OUTPUT);
 pinMode(DIR, OUTPUT);
 pinMode(ENA, OUTPUT);
-Serial.begin(9600);
+/*Serial.begin(9600);
 Serial.println("MO");
 if(Serial.available()>0){
   char num = Serial.read();
@@ -17,7 +17,7 @@ if(Serial.available()>0){
   count = Serial.parseInt();
   Serial.println(count);
   }
-}
+}*/
 }
 void loop() {
 digitalWrite(VCC, HIGH);
@@ -26,11 +26,11 @@ digitalWrite(DIR, HIGH); //正转
 //正转一圈，用时1s
 //此处驱动器定义1600步为1圈
 //本来1600X625微秒=1秒，因为时间间隔太短，程序运行也需要时间，间隔时间/2之后总时间差不多1秒
-for(int x=0; x<count; x++){
+for(int x=0; x<1600; x++){
 digitalWrite(PLS, HIGH);
 delayMicroseconds(625/2);
 digitalWrite(PLS, LOW);
-delayMicroseconds(625/2);//取550/2
+delayMicroseconds(625/2);//取550/s
 }/*
 delay(10); 
 */
