@@ -14,10 +14,10 @@ void setup() {
 void loop() { 
 
   //1st
-  leds[3] = CRGB::Blue;
-  leds[4] = CRGB::Blue;
-  leds[5] = CRGB::Blue;
-  leds[6] = CRGB::Blue;
+  leds[3] = CRGB::Yellow;
+  leds[4] = CRGB::Yellow;
+  leds[5] = CRGB::Yellow;
+  leds[6] = CRGB::Yellow;
   FastLED.show();
   delayMicroseconds(2500);
 
@@ -26,36 +26,36 @@ void loop() {
   leds[4] = CRGB::Black;
   leds[5] = CRGB::Black;
   leds[6] = CRGB::Black;                  
-  leds[2] = CRGB::Blue;
-  leds[7] = CRGB::Blue;
+  leds[2] = CRGB::Yellow;
+  leds[7] = CRGB::Yellow;
   FastLED.show();
   delayMicroseconds(2500);
 
   //3rd
   leds[2] = CRGB::Black;
   leds[7] = CRGB::Black;
-  leds[1] = CRGB::Blue;
-  leds[8] = CRGB::Blue;
+  leds[1] = CRGB::Yellow;
+  leds[8] = CRGB::Yellow;
   FastLED.show();
   delayMicroseconds(2500);
 
   //4th
-  leds[1] = CRGB::Blue;
-  leds[8] = CRGB::Blue;
+  leds[1] = CRGB::Yellow;
+  leds[8] = CRGB::Yellow;
   FastLED.show();
   delayMicroseconds(2500);
 
   //5th
-  leds[1] = CRGB::Blue;
-  leds[8] = CRGB::Blue;
+  leds[1] = CRGB::Yellow;
+  leds[8] = CRGB::Yellow;
   FastLED.show();
   delayMicroseconds(2500);
 
   //6th
   leds[1] = CRGB::Black;
   leds[8] = CRGB::Black;
-  leds[2] = CRGB::Blue;
-  leds[7] = CRGB::Blue;
+  leds[2] = CRGB::Yellow;
+  leds[7] = CRGB::Yellow;
   FastLED.show();
   delayMicroseconds(2500);
 
@@ -63,7 +63,7 @@ void loop() {
   leds[2] = CRGB::Black;
   leds[7] = CRGB::Black;
 for(int i = 3; i<=6; i++){
-  leds[i] = CRGB::Blue;
+  leds[i] = CRGB::Yellow;
 }
   FastLED.show();
   delayMicroseconds(2500);
@@ -146,15 +146,15 @@ for(int j = 0; j<=17; j++){
   delayMicroseconds(5000);
 
 //21st
-leds[8] = CRGB::Blue;
+leds[8] = CRGB::Green;
 FastLED.show();
 delayMicroseconds(2500);
 
 //22nd
 leds[8] = CRGB::Black;
-leds[7] = CRGB::Blue;
-leds[9] = CRGB::Blue;
-leds[16] = CRGB::Blue;
+leds[7] = CRGB::Green;
+leds[9] = CRGB::Green;
+leds[16] = CRGB::Green;
 FastLED.show();
 delayMicroseconds(2500);
 
@@ -162,9 +162,9 @@ delayMicroseconds(2500);
 leds[16] = CRGB::Black;
 leds[7] = CRGB::Black;
 leds[9] = CRGB::Black;
-leds[17] = CRGB::Blue;
-leds[10] = CRGB::Blue;
-leds[6] = CRGB::Blue;
+leds[17] = CRGB::Green;
+leds[10] = CRGB::Green;
+leds[6] = CRGB::Green;
 FastLED.show();
 delayMicroseconds(2500);
 
@@ -172,9 +172,9 @@ delayMicroseconds(2500);
 leds[17] = CRGB::Black;
 leds[10] = CRGB::Black;
 leds[6] = CRGB::Black;
-leds[17] = CRGB::Blue;
-leds[11] = CRGB::Blue;
-leds[6] = CRGB::Blue;
+leds[17] = CRGB::Green;
+leds[11] = CRGB::Green;
+leds[6] = CRGB::Green;
 FastLED.show();
 delayMicroseconds(2500);
 
@@ -182,9 +182,9 @@ delayMicroseconds(2500);
 leds[17] = CRGB::Black;
 leds[11] = CRGB::Black;
 leds[6] = CRGB::Black;
-leds[6] = CRGB::Blue;
-leds[12] = CRGB::Blue;
-leds[17] = CRGB::Blue;
+leds[6] = CRGB::Green;
+leds[12] = CRGB::Green;
+leds[17] = CRGB::Green;
 FastLED.show();
 delayMicroseconds(2500);
 
@@ -192,9 +192,9 @@ delayMicroseconds(2500);
 leds[17] = CRGB::Black;
 leds[12] = CRGB::Black;
 leds[6] = CRGB::Black;
-leds[17] = CRGB::Blue;
-leds[13] = CRGB::Blue;
-leds[6] = CRGB::Blue;
+leds[17] = CRGB::Green;
+leds[13] = CRGB::Green;
+leds[6] = CRGB::Green;
 FastLED.show();
 delayMicroseconds(2500);
 
@@ -202,9 +202,9 @@ delayMicroseconds(2500);
 leds[17] = CRGB::Black;
 leds[13] = CRGB::Black;
 leds[6] = CRGB::Black;
-leds[16] = CRGB::Blue;
-leds[14] = CRGB::Blue;
-leds[7] = CRGB::Blue;
+leds[16] = CRGB::Green;
+leds[14] = CRGB::Green;
+leds[7] = CRGB::Green;
 FastLED.show();
 delayMicroseconds(2500);
 
@@ -212,7 +212,7 @@ delayMicroseconds(2500);
 leds[16] = CRGB::Black;
 leds[7] = CRGB::Black;
 leds[14] = CRGB::Black;
-leds[15] = CRGB::Blue;
+leds[15] = CRGB::Green;
 FastLED.show();
 delayMicroseconds(2500);
 
@@ -226,7 +226,7 @@ for(int j = 0; j<=17; j++){
 
 //32nd
 for(int i = 9; i<=17; i++){
-  leds[i] = CRGB::Blue;
+  leds[i] = CRGB::Red;
 }
   FastLED.show();
   delayMicroseconds(2500);
@@ -235,50 +235,50 @@ for(int i = 9; i<=17; i++){
 for(int i = 9; i<=17; i++){
   leds[i] = CRGB::Black;
 }
-leds[8] = CRGB::Blue;
+leds[8] = CRGB::Red;
 FastLED.show();
 delayMicroseconds(2500);
 
 //34th
 leds[8] = CRGB::Black;
-leds[7] = CRGB::Blue;
+leds[7] = CRGB::Red;
 FastLED.show();
 delayMicroseconds(2500);
 
 //35th
 leds[7] = CRGB::Black;
-leds[6] = CRGB::Blue;
+leds[6] = CRGB::Red;
 FastLED.show();
 delayMicroseconds(2500);
 
 
 //36th
-leds[6] = CRGB::Blue;
+leds[6] = CRGB::Red;
 FastLED.show();
 delayMicroseconds(2500);
 
 
 //37th
-leds[6] = CRGB::Blue;
+leds[6] = CRGB::Red;
 FastLED.show();
 delayMicroseconds(2500);
 
 //38th
 leds[6] = CRGB::Black;
-leds[7] = CRGB::Blue;
+leds[7] = CRGB::Red;
 FastLED.show();
 delayMicroseconds(2500);
 
 //39th
 leds[7] = CRGB::Black;
-leds[8] = CRGB::Blue;
+leds[8] = CRGB::Red;
 FastLED.show();
 delayMicroseconds(2500);
 
 //40th
 leds[8] = CRGB::Black;
 for(int i = 9; i<=17; i++){
-  leds[i] = CRGB::Blue;
+  leds[i] = CRGB::Red;
 }
   FastLED.show();
   delayMicroseconds(2500);
@@ -291,10 +291,10 @@ for(int j = 0; j<=17; j++){
   delayMicroseconds(12500);
 
 //46th
-leds[14] = CRGB::Blue;
-leds[13] = CRGB::Blue;
+leds[14] = CRGB::Purple;
+leds[13] = CRGB::Purple;
 for(int i = 4; i<=11; i++){
-  leds[i] = CRGB::Blue;
+  leds[i] = CRGB::Purple;
 }
 FastLED.show();
 delayMicroseconds(2500);
@@ -307,17 +307,17 @@ for(int j = 0; j<=17; j++){
 
 
 //51
-leds[0] = CRGB::Blue;
+leds[0] = CRGB::Pink;
 FastLED.show();
 delayMicroseconds(2500);
 
 //52
 leds[0] = CRGB::Black;
-leds[6] = CRGB::Blue;
-leds[5] = CRGB::Blue;
-leds[4] = CRGB::Blue;
-leds[3] = CRGB::Blue;
-leds[1] = CRGB::Blue;
+leds[6] = CRGB::Pink;
+leds[5] = CRGB::Pink;
+leds[4] = CRGB::Pink;
+leds[3] = CRGB::Pink;
+leds[1] = CRGB::Pink;
 FastLED.show();
 delayMicroseconds(2500);
 
@@ -327,36 +327,36 @@ leds[5] = CRGB::Black;
 leds[4] = CRGB::Black;
 leds[3] = CRGB::Black;
 leds[1] = CRGB::Black;
-leds[7] = CRGB::Blue;
-leds[2] = CRGB::Blue;
+leds[7] = CRGB::Pink;
+leds[2] = CRGB::Pink;
 FastLED.show();
 delayMicroseconds(2500);
 
 //54rd
 leds[7] = CRGB::Black;
 leds[2] = CRGB::Black;
-leds[1] = CRGB::Blue;
-leds[8] = CRGB::Blue;
+leds[1] = CRGB::Pink;
+leds[8] = CRGB::Pink;
 FastLED.show();
 delayMicroseconds(2500);
 
 //55th
-leds[1] = CRGB::Blue;
-leds[8] = CRGB::Blue;
+leds[1] = CRGB::Pink;
+leds[8] = CRGB::Pink;
 FastLED.show();
 delayMicroseconds(2500);
 
 //56th
-leds[1] = CRGB::Blue;
-leds[8] = CRGB::Blue;
+leds[1] = CRGB::Pink;
+leds[8] = CRGB::Pink;
 FastLED.show();
 delayMicroseconds(2500);
 
 //57th
 leds[1] = CRGB::Black;
 leds[8] = CRGB::Black;
-leds[7] = CRGB::Blue;
-leds[2] = CRGB::Blue;
+leds[7] = CRGB::Pink;
+leds[2] = CRGB::Pink;
 FastLED.show();
 delayMicroseconds(2500);
 
@@ -364,7 +364,7 @@ delayMicroseconds(2500);
 leds[7] = CRGB::Black;
 leds[2] = CRGB::Black;
 for(int i = 3; i<=6; i++){
-  leds[i] = CRGB::Blue;
+  leds[i] = CRGB::Pink;
 }
   FastLED.show();
   delayMicroseconds(2500);
